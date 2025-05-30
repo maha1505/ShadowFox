@@ -1,0 +1,54 @@
+/* Path: client/src/pages/Users.css */
+.users-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.user-card {
+  background: #ffedde;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+
+.user-card:hover {
+  transform: scale(1.03);
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 1rem;
+  background-color: #fe9179; /* You said this matches well with #ffeddi */
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.email {
+  color: #333;
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+}
+
+.role,
+.joined {
+  font-size: 0.85rem;
+  color: #777;
+  margin-top: 4px;
+}
